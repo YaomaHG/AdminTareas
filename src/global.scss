@@ -35,3 +35,33 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+/* Accesibilidad: texto grande */
+body.texto-grande {
+	font-size: 1.1rem;
+}
+
+/* Alto contraste: ajustes simples */
+body.alto-contraste {
+	--ion-background-color: #000000;
+	--ion-text-color: #ffffff;
+	--ion-color-step-50: #111111;
+	--ion-color-step-100: #222222;
+	--ion-color-step-150: #333333;
+	--ion-color-step-200: #444444;
+	--ion-color-step-250: #555555;
+	--ion-color-step-300: #666666;
+	--ion-color-step-350: #777777;
+	--ion-color-step-400: #888888;
+	--ion-color-step-450: #999999;
+	--ion-color-step-500: #aaaaaa;
+	--ion-color-step-550: #b7b7b7;
+	--ion-color-step-600: #c4c4c4;
+	--ion-color-step-650: #d1d1d1;
+	--ion-color-step-700: #dedede;
+	--ion-color-step-750: #ebebeb;
+	--ion-color-step-800: #f8f8f8;
+	--ion-color-step-850: #fbfbfb;
+	--ion-color-step-900: #fdfdfd;
+	--ion-color-step-950: #fefefe;
+}
